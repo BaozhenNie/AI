@@ -106,7 +106,12 @@ Details of the histogram of true and fake result of discriminator (with custom d
 - [DiscoGAN-pytorch](https://github.com/carpedm20/DiscoGAN-pytorch)
 - [simulated-unsupervised-tensorflow](https://github.com/carpedm20/simulated-unsupervised-tensorflow)
 
-
+## cmd to exec
+#### MNIST-train:  
+python main.py -dataset mnist -input_height 28 -input_width 28 -output_height 28 -output_width 28 -train
+#### anime(cartoon picture)
+https://zhuanlan.zhihu.com/p/24767059?utm_source=weibo&utm_medium=social  
+python main.py --input_height 96 --input_width 96 --output_height 48 --output_width 48 --dataset anime --crop --train --epoch 300 --input_fname_pattern "*.jpg"
 ## Author
 
 Taehoon Kim / [@carpedm20](http://carpedm20.github.io/)
